@@ -1,0 +1,15 @@
+think
+  layout
+build
+  html
+  name classes BEM (block__element--modifier)
+  e.g ) class="post-list" > class="post-list__post-item" > class="post-item--avatar"
+architect
+  the 7-1 pattern: 7 folders for 1 main sass file
+    base/
+    components/
+    layout/
+    pages/
+    themes/
+    abstracts/
+    vendors/
