@@ -17,6 +17,18 @@ html {
   /* 10/16(default font-size) => 0.625 to make root font size 10px */
   // this defines what 1rem is
   font-size: 62.5%;
+
+  @include respond(big-desktop) {
+    font-size: 75%; // 1rem = 12px
+  }
+
+  @include respond(tab-land) {
+    font-size: 56.25%; // 1rem = 9px
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%; // 1rem = 8px 8/16 = 50%...
+  }
 }
 
 body {
